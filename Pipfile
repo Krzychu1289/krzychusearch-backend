@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = {extras = ["speedups"], version = "*"}
+python-dotenv = "*"
+undefined = {editable = true, git = "https://gitlab.com/PanKlipcio/undefined.git"}
+motor = "*"
+validators = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
